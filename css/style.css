@@ -1,0 +1,220 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  background-color: #EAECEE;
+  opacity: 1;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.fonas{
+	background-color: #f4ff81;
+}
+.paveiksl{
+  position: fixed;
+    bottom: 30px;
+    right: 60px;
+    width: 300px;
+}
+.horo{
+  padding-top: 180px;
+  padding-left: 0.75rem;
+}
+
+.brand-logo{
+position: relative;
+left: 1px;
+  max-width:  95px;
+  max-height: 95px;
+}
+
+.brand-logo2{
+  position: relative;
+  top: 15px;
+margin-left: 60px;
+width:  110px;
+height: 60px;
+}
+
+.nav-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  
+}
+nav{
+  background-color: #4E4F7D; 
+  height: 90px;
+}
+
+.page-footer{
+  padding-top: 5px;
+  padding: 0px;
+    background-color: #4E4F7D;
+
+}
+
+
+.foto{
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.simple-subscription-form {
+  max-height: 600px;
+  color: #fefefe;
+  border-radius: 0;
+}
+
+.simple-subscription-form .button {
+  margin-bottom: 0;
+  border-radius: 0 0 0 0;
+}
+.input-group-field{
+  color: white;
+}
+.no-b-margin{
+  margin-bottom: 0;
+}
+ul.social{
+  margin-bottom: 0;
+}
+/* -----News----- */
+.newsfotodiv{
+	position: relative;
+  max-height: 400px;
+  overflow:hidden
+}
+.mainfoto{
+	position: relative;
+  width: 100%;
+}
+.newsforall{
+	width: 75%;
+	align-self: center;
+}
+.newshead{
+	font-size: 40px;
+	font-style: oblique;
+}
+.minifoto{
+  position: relative;
+  max-width: 500px;
+  min-width: 500px;
+  max-height: 300px;
+  min-height: 300px; 
+}
+
+
+/*------------login----------*/
+input[type=text], input[type=password] {
+    width: 100%;
+    
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+   
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+
+
+/* The Modal (background) */
+.my-modal {
+    display: block; /* Hidden by default */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 10;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+.container3 {
+  line-height: 1;
+  color: black;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.atsijungimas{
+  color:red;
+}
+/*-------------login----------*/
